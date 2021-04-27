@@ -1,13 +1,31 @@
-try {
-    let options = {
-        weekday: "short",
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-        hour: "2-digit":
-        minute: "2-digit"
-    };
-    document.getElementById(
-        "currentdate"
-    ).textContent = newDate().toLocaleString("en-US", options);
-}
+let daynames = [
+   "Sunday",
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday", 
+];
+let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "Septemper",
+    "October",
+    "November",
+    "December",
+];
+
+let d = new Date();
+let dayName = daynames[d.getDay()];
+let monthName = months[d.getMonth()];
+let year = d.getFullYear();
+let fullDate = `$[dayName], $[monthName],` + d.getDate() + `$[year]`;
+
+Document.getElementById("currentdate").textContent = fulldate;
