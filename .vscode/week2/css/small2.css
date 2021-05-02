@@ -1,0 +1,66 @@
+body{
+    background-color: white;
+    font-size: 16px;
+
+}
+header, footer, main {
+    max-width: 850px;
+    margin: auto;
+}
+header, footer {
+    background-color: #B67A02;
+    padding: 1em;
+    text-align: right;
+}
+main{
+    max-width: 850px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+main section {
+    background-color: #EBFFF1;
+    margin: 2em;
+
+}
+section img {
+    padding-left: .5em;
+}
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+h3 {
+    background-color: #093A3E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    padding: .8em;
+}
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;;
+    color: #093A3E;
+    padding: 1.5em;
+}
+p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    padding: .5em;
+    font-size: 1.5em;
+}
+a {
+    color: #6D3B47;
+    font: .5em;
+    padding: 2em;
+    padding-bottom: 4em;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    padding: .5em;
+    padding-right: 4.5rem;
+    margin-top: 0;
+    font-family: "Raleway", Helvetica, sans-serif;
+}

@@ -8,6 +8,10 @@ header, main, footer{
     max-width: 760px;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 header{
     background-color: #093a3e;
     color: #fff;
@@ -21,7 +25,6 @@ header{
 }
 
 img {
-    float: right;
     width: 200px;
     margin-top: -80px;
     margin-right: 20px;
