@@ -6,4 +6,7 @@
         width: 95%;
         height: auto;
     }
+    #clove {
+        grid-column: 1 / 3;
+    }
 }
