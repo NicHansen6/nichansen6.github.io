@@ -1,0 +1,64 @@
+body {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header,
+footer {
+	background-color: #B8DEE0;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 950px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 2rem;
+    font-family: 'Fredericka the Great', cursive;
+}
+h2, h3 {
+	color: #404833;
+    font-family: 'Fredericka the Great', cursive;
+}
+nav {
+	background-color: #404833;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #B57F50;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #B57F50;
+	color: #404833;
+}
+main {
+    padding: 4em;
+
+}
+@media only screen and (min-width: 38em) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
