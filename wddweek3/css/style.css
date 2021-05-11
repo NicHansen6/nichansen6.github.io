@@ -58,6 +58,12 @@ main img {
     width: 20em;
     align-items: center;
 }
+#font1 {
+    font-family: 'Fredericka the Great', cursive;
+}
+#font2 {
+    font-family: 'Montserrat', sans-serif;
+}
 @media only screen and (min-width: 38em) {
     nav ul {
         display: flex;
